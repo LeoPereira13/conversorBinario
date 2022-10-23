@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: darkgray;
+
+}
+
+.container{
+    width: 18em;
+    margin-top: 2em;
+}
+
+.outputContainer,.inputContainer{
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.inputContainer{
+    background-color: rgb(86, 85, 90);
+
+}
+
+.outputContainer{
+    background-color: white;
+    word-break: break-all;
+    text-align: center;
+}
+
+input{
+    background-color: rgb(86, 85, 90);
+    height: 3em;
+    width: 5em;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+h1{
+    color: rgb(0, 54, 153);
+    padding: 1em;
+}
